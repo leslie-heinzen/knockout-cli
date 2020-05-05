@@ -4,12 +4,12 @@ const { program } = require('commander');
 const create = require('../lib/create');
 
 program
-  .version(`ko-cli ${require('../package').version}}`)
+  .version(`knockout-cli ${require('../package').version}}`)
   .usage('<command> [options]');
 
 program
   .command('create <app-name>')
-  .description('create a new project powered by ko-cli')
+  .description('create a new project powered by knockout-cli')
   .option('-t', '--template <template-name>', 'select a template for the new project')
   .action((name, opts) => {    
     const options = cleanArgs(opts);

@@ -1,10 +1,24 @@
 {
   "name": "knockout-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool for initializing knockout projects.",
   "bin": {
-    "ko-cli": "./bin/ko-cli.js"
+    "knockout-cli": "./bin/knockout-cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leslie-heinzen/knockout-cli.git"
+  },
+  "keywords": [
+    "knockout",
+    "ko",
+    "command-line",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/leslie-heinzen/knockout-cli"
+  },
+  "homepage": "https://github.com/leslie-heinzen/knockout-cli",
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.1.0",

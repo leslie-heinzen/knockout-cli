@@ -1,7 +1,7 @@
 {
-  "name": "ko-cli-default-project-template",
+  "name": "knockout-cli-default-project-template",
   "version": "1.0.0",
-  "description": "A default template for new projects made with ko-cli.",
+  "description": "A default template for new projects made with knockout-cli.",
   "dependencies": {
     "knockout": "^3.5.1"
   },

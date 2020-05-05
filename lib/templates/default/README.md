@@ -1,4 +1,4 @@
-This project was bootstrapped with ko-cli.
+This project was bootstrapped with knockout-cli.
 
 ### Run
 ```
