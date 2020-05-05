@@ -10,11 +10,16 @@ program
 program
   .command('create <app-name>')
   .description('create a new project powered by knockout-cli')
-  .option('-t', '--template <template-name>', 'select a template for the new project')
+  .option('-t, --template <template-name>', 'select a template for the new project')
+  .option('-p, --package-manager <package-manager>', 'select the package manager used')
   .action((name, opts) => {    
     const options = cleanArgs(opts);
     if (!options.template) {
       options.template = 'default';
+    }
+
+    if (!options.packageManager || options.packageManager.toLowerCase() !== 'yarn') {
+      options.packageManager = 'npm';
     }
 
     create(name, options);

@@ -1,6 +1,6 @@
 {
   "name": "knockout-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI tool for initializing knockout projects.",
   "bin": {
     "knockout-cli": "./bin/knockout-cli.js"
