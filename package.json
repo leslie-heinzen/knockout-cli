@@ -1,0 +1,17 @@
+{
+  "name": "knockout-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for initializing knockout projects.",
+  "bin": {
+    "ko-cli": "./bin/ko-cli.js"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "fs-extra": "^9.0.0",
+    "minimist": "^1.2.5",
+    "ora": "^4.0.4"
+  },
+  "author": "Leslie Heinzen",
+  "license": "MIT"
+}

@@ -1,0 +1,49 @@
+.app {
+  text-align: center;
+}
+
+.app-logo {
+  height: 40vmin;
+  pointer-events: none;
+  width: 90%;
+  max-width: 1280px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo {
+    animation: shake infinite 5s cubic-bezier(.36,.07,.19,.97) both;
+  }
+}
+
+.app-header {
+  background-color: #fcd4d4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #212529;
+}
+
+.app-link {
+  color: #590c12;
+}
+
+@keyframes shake {
+  82%, 98% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  85%, 96% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  86%, 90%, 94% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  88%, 92% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
