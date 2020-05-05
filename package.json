@@ -10,7 +10,7 @@
     "url": "git+https://github.com/leslie-heinzen/knockout-cli.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/leslie-heinzen"
   },
   "keywords": [
     "knockout",
