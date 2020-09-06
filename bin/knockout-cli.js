@@ -12,7 +12,7 @@ program
   .description('create a new project powered by knockout-cli')
   .option('-t, --template <template-name>', 'select a template for the new project.', 'default')
   .option('-p, --package-manager <package-manager>', 'select yarn or npm to install.', 'npm')
-  .option('-a, --add-on <add-on>', 'include an optional feature.', collect, [])
+  .option('-a, --add-on <add-on>', 'include optional features.', collect, [])
   .action((name, opts) => {    
     const options = cleanArgs(opts);
     create(name, options);
