@@ -27,7 +27,7 @@ code {
 .main {
   text-align: center;
   background-color: #fcd4d4;
-  min-height: 100vh;
+  min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
   align-items: center;
