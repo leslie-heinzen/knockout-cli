@@ -34,9 +34,9 @@ Usage: knockout-cli create [options] <app-name>
 create a new project powered by knockout-cli
 
 Options:
-  -t, --template <template-name>           select a template for the new project.
-  -p, --package-manager <package-manager>  select the package manager used.
-  -a, --add-on <add-on>                    include optional features. (default: [])
+  -t, --template <template-name>           select a template for the new project. Options: default.
+  -p, --package-manager <package-manager>  select the package manager used. Options: npm, yarn.
+  -a, --add-on <add-on>                    include optional features. Options: router. (default: [])
   -h, --help                               display help for command.
 ```
 
