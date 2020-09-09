@@ -45,7 +45,3 @@ Options:
 Additional features can be included in app creation by providing a comma-delimited list of desired features to the `--add-on` create option. Currently available:
 
 - `router`: Includes @profiscience/knockout-contrib-router front-end router in the new project, with a very minimal router.
-
-**It's 2020. Why in the world did you make this?**
-
-That's a very good question. A little boredom, a little insanity. Also, developers still write knockout. This is a simple tool for creating new knockout projects with semi-modern tools without having to fiddle with configuration much. The concept is borrowed from other JS frameworks, like React (create-react-app), Vue (vue-cli), and Ember (which is heavily CLI-driven).
