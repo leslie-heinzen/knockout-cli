@@ -1,6 +1,6 @@
 {
   "name": "knockout-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A CLI tool for initializing knockout projects.",
   "bin": {
     "knockout-cli": "./bin/knockout-cli.js"
@@ -23,6 +23,7 @@
     "chalk": "^4.0.0",
     "commander": "^5.1.0",
     "fs-extra": "^9.0.0",
+    "glob": "^7.1.6",
     "minimist": "^1.2.5",
     "ora": "^4.0.4"
   },

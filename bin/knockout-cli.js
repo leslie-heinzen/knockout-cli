@@ -13,6 +13,7 @@ program
   .option('-t, --template <template-name>', 'select a template for the new project.', 'default')
   .option('-p, --package-manager <package-manager>', 'select yarn or npm to install.', 'npm')
   .option('-a, --add-on <add-on>', 'include optional features.', collect, [])
+  .option('-va, --vanilla', 'use vanilla js instead of typescript.')
   .action((name, opts) => {    
     const options = cleanArgs(opts);
     create(name, options);
